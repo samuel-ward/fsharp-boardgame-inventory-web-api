@@ -7,6 +7,8 @@ stdenv.mkDerivation {
   buildInputs = [
     awscli
     dotnetCorePackages.sdk_8_0
+    fsharp
+    omnisharp-roslyn
     /* The below should be used when migrating dotnet versions
     dotnetCorePackages.combinePackages [
       dotnet-sdk_8_0

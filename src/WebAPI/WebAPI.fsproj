@@ -3,12 +3,18 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <InvariantGlobalization>true</InvariantGlobalization>
+    <!-- To account for .NET cold start times on AWS Lambda -->
+    <PublishReadyToRun>true</PublishReadyToRun>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="WeatherForecast.fs" />
-    <Compile Include="Controllers/WeatherForecastController.fs" />
+    <Compile Include="Controllers/UserHandler.fs" />
+    <Compile Include="Models/UserGames.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Giraffe" Version="6.2.0" />
   </ItemGroup>
 
 </Project>
