@@ -8,8 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Controllers/UserHandler.fs" />
     <Compile Include="Models/UserGames.fs" />
+    <Compile Include="Controllers/UserHandler.fs" />
+    <Compile Include="DataAccess/UserGamesInMemory.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
