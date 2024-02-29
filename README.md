@@ -18,7 +18,7 @@ Below gives a brief explanation of all of the components of the backend.
     └── WebAPI.Tests
 ```
 
-## (src/WebAPI)[./src/WebAPI/]
+## [src/WebAPI](./src/WebAPI/)
 
 The WebAPI is a RESTful API that is written in F#, using the Giraffe framework.
 It is deployed on AWS as a lambda function.
