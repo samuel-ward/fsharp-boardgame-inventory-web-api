@@ -2,9 +2,11 @@
 
 This repository is to manage all of the Backend related lambda functions and the REST API.
 
-These while primarily be written in F# where able, resorting to C# where needed - or another language where appropriate.
+To see the documentation repository, and the other repositories connected to this project, please go to the [Games Shelf: Documentation Repository](https://github.com/samuel-ward/fsharp-boardgame-inventory-documentation)
 
-Below gives a brief explanation of all of the components.
+These will primarily be written in F# where able, resorting to C# where needed - or another language where appropriate.
+
+Below gives a brief explanation of all of the components of the backend.
 
 ## Directory Structure
 
